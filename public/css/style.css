@@ -1,0 +1,1632 @@
+.night_mode{
+    background: #121212;
+}
+
+.night_mode .ride_bottom{
+    border-bottom: 2px solid #f7941d;
+}
+
+.night_mode h1,
+.night_mode h2,
+.night_mode h3,
+.night_mode h4,
+.night_mode h5,
+.night_mode label,
+.night_mode p,
+.night_mode .alert,
+.night_mode .contact_text,
+.night_mode .contact_text a,
+.night_mode .settings span,
+.night_mode .additional_information_label,
+.night_mode .close_booking,
+.night_mode .myvesu_btn_default,
+.night_mode .go_back_edit,
+.night_mode .right_nav_icon i,
+.night_mode .notification_count,
+.night_mode .navbar_myvesu h5,
+.night_mode #book_ride i,
+.night_mode .sidenav a.closebtn i,
+.night_mode .sidenav-user-div p,
+.night_mode .rides_info p,
+.night_mode .rides_info span,
+.night_mode .ride_info_desc p,
+.night_mode .ride_info_desc span,
+.night_mode .driver_info_desc span,
+.night_mode .driver_info_desc p,
+.night_mode #book_ride input,
+.night_mode #book_ride textarea,
+.night_mode .profile_edit_form select,
+.night_mode #book_ride select,
+.night_mode .profile_edit_form textarea,
+.night_mode .profile_edit_form input,
+.night_mode .profile_edit_form .form-group input::placeholder,
+.night_mode #book_ride input::placeholder,
+.night_mode #book_ride textarea::placeholder,
+.night_mode .accordion_card .passenger_information,
+.night_mode .sidenav-links-div a{
+    color: #f7941d !important;
+}
+.night_mode .left_nav_icon div{
+    background-color: #f7941d !important;
+}
+.invitation_button{
+    color: #ffffff !important;
+    background: #f7941d !important;
+    border: none !important;
+}
+
+.night_mode .sidenav{
+    background-image: linear-gradient(#292929 , #353535);
+}
+
+.night_mode .navbar_myvesu{
+    background: #292929;
+}
+
+.night_mode .footer, .night_mode .accordion_card{
+    background: #353535;
+}
+
+.night_mode .container-fluid{
+    background: #292929;
+}
+
+
+.night_mode .alert-light{
+    background: #0a0c0d;
+    color: #ffffff;
+}
+
+.night_mode #contactForm .form-control,
+.night_mode #contactForm .form-group .form-control,
+.night_mode .profile_edit_form .form-control,
+.night_mode .profile_edit_form textarea
+{
+    background: #292929 !important;
+}
+
+.contact_info_form{
+    padding-bottom: 5px;
+}
+
+.contact_info .row{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+input::-webkit-input-placeholder {
+    text-align: center;
+}
+h1, h2, h3 ,h4, h5, a{
+    font-family: "Myriad Pro Regular" !important;
+    color: #ffffff;
+}
+p{
+    font-family: "Myriad Pro Regular" !important;
+}
+input:-moz-placeholder { /* Firefox 18- */
+    text-align: center;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;
+}
+
+input:-ms-input-placeholder {
+    text-align: center;
+}
+
+.auth_page input::placeholder {
+    color: #ffffff !important;
+    font-size: 20px;
+    font-family: "Myriad Pro Regular";
+}
+
+.myvesu_input_group::placeholder, .myvesu_input::placeholder {
+    font-size: 20px;
+    font-family: "Myriad Pro Regular";
+}
+
+a:link {
+    text-decoration: none !important;
+}
+
+a:visited {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a:active {
+    text-decoration: none !important;
+}
+
+.auth_page select {
+    text-align: center;
+    text-align-last: center;
+    font-size: 20px !important;
+}
+
+.auth_page option {
+    text-align: left;
+}
+
+.auth_body{
+    background-image: url("../assets/img/brand/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.auth_body::before {
+    background: #000;
+    content: "";
+    opacity: 0.5;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    bottom: 0px;
+}
+
+.start_text{
+    margin-top: 5vh;
+    font-family: "Myriad Pro Regular";
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.start_button_col{
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
+
+#leftSidenav{
+    z-index: 99999;
+}
+body{
+    min-height: 100vh
+}
+.vesu_reloading_ptr{
+    box-shadow: none !important;
+    color: white !important;
+    display: block !important;
+}
+.vesu_reloading_box{
+    padding: 0 !important;
+}
+.vesu_reloading_icon,.vesu_reloading_text{
+    color: #f7941d !important;
+}
+
+.profile_address_div p, .profile_user_city p{
+    overflow-wrap: break-word;
+}
+.profile_user_city .col-6{
+    padding-right: 0 !important;
+}
+
+.start_button{
+    background-color: #f7941d;
+    border-radius: 25px;
+    font-size: 22px;
+    color: #ffffff;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+.auth_page_title{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.auth_page input, .auth_page select{
+    opacity: 0.8;
+    background-color: #76747e;
+    border-radius: 25px;
+    border: none;
+    margin-top: 15px;
+    outline: none;
+    width: 100%;
+    color: white;
+}
+
+.btn_auth{
+    font-family: "Myriad Pro Regular";
+    font-size: 20px;
+    opacity: 0.8;
+    border-radius: 25px;
+    border: none;
+    padding: 5px 30px;
+    width: 100%;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #f7941d;
+}
+
+.forgot_password a{
+    font-size: 26px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.auth_register a{
+    font-size: 26px;
+    font-weight: bold;
+    color: #f7941d;
+}
+
+.auth_body .invalid-feedback{
+    text-align: center;
+}
+
+.additional_address_text span{
+    font-family: "Myriad Pro Regular";
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.additional_address_hide{
+    display: none;
+}
+
+.additional_address_show{
+    display: block;
+}
+
+.intro_text{
+    font-family: "Myriad Pro Regular";
+    font-size: 20px;
+    text-align: center;
+    color: #c6cbd6;
+}
+
+.intro_button_default{
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 25px;
+    font-size: 6vw;
+    color: #f7941d;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+
+.intro_button{
+    display: block;
+    width: 100%;
+    background-color: #f7941d;
+    border-radius: 25px;
+    font-size: 6vw;
+    color: #ffffff;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 85vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -85vw;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 40px;
+    background-image: linear-gradient(rgba(247,164,84,0.9),rgba(247,148,29,0.9));
+
+}
+
+.sidenav a {
+    padding: 7px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a.closebtn i{
+    font-size: 33px;
+    color: white;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav-image-div{
+    width: fit-content;
+}
+
+.sidenav-image-div img{
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sidenav_right a i{
+    font-size: 33px;
+    color: white;
+    transform: scale(-1, 1);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 28px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav-links-div{
+    line-height: 1;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-sidenav-links-div{
+    padding-right: 8px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidenav_right {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(rgba(247,164,84,0.9),rgba(247,148,29,0.9));
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav_right a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav-user-div p{
+    font-weight: 400;
+    font-family: "Myriad Pro Regular";
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom:0;
+    color: white;
+    line-height: 1.3;
+}
+.sidenav_right a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav_right .closebtn {
+    position: absolute;
+    top: 28px;
+    left: -55px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .sidenav_right {padding-top: 15px;}
+    .sidenav_right a {font-size: 18px;}
+}
+
+.navbar_myvesu{
+    background-color: #f7941d;
+}
+
+.right_nav_icon{
+    position: relative;
+    font-size: 35px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.left_nav_icon{
+    cursor: pointer;
+}
+
+.left_nav_icon div{
+    height: 4px;
+    background: #ffffff;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+.rides_type{
+    display: block;
+    width: 100%;
+    box-shadow: none !important;
+    background-color: #f7941d;
+    font-size: 5vw;
+    color: #ffffff;
+}
+
+.rides_type:hover{
+    background-color: #f7941d;
+    color: #ffffff;
+}
+
+.rides_page_link{
+    cursor: pointer;
+}
+
+.rides_info p{
+    font-size: 14px;
+    line-height: 1;
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+.rides_info_seats span{
+    color: #757575;
+    font-weight: bold;
+}
+
+.rides_info_driver span{
+    color: #757575;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 1px;
+}
+
+.rides_info_time{
+    color: #F89D30 !important;
+}
+
+.rides_info_price{
+    font-weight: bold;
+}
+
+.ride_item{
+    padding-top: 20px;
+}
+
+.add_rides_img{
+   font-size: 15vw;
+    color: #F7941D;
+}
+
+.ride_info_desc p{
+    font-size: 11px;
+    color: #AAAAAA;
+    margin-bottom: 7px;
+    line-height: 1;
+}
+.orange_text{
+    color: #F7941D !important;
+}
+.ride_info_desc p span{
+    font-size: 13px;
+}
+
+.bold_text{
+    font-weight: bold;
+    color: #767676;
+}
+.driver_info_desc p{
+    line-height: 1;
+    color:#AAAAAA;
+    margin-bottom: 7px;
+    font-size: 11px;
+}
+.driver_info_desc{
+    padding-right: 10px;
+}
+.ride_driver_name{
+    color: #848484 !important;
+    font-size: 14px !important;
+}
+.join_button{
+    display: block;
+    width: 100%;
+    color: white;
+    padding: 5px;
+    background-color: #F7941D;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+
+.myvesu_input_group{
+    border: none;
+    background-color: #ebebeb;
+    border-radius: 25px 0px 0px 25px;
+    height: 50px;
+}
+
+.myvesu_input_group:focus, .myvesu_input:focus, .myvesu_select:focus{
+    box-shadow:none;
+    background-color: #ebebeb;
+}
+
+.myvesu_input, .myvesu_select{
+    border: none;
+    background-color: #ebebeb;
+    border-radius: 25px;
+    height: 50px;
+}
+
+.form-control:disabled, .form-control[readonly] {
+     background-color: #ebebeb;
+}
+
+#date_of_ride input, #pick_up_time input{
+    text-align: center;
+}
+
+.myvesu_select{
+    text-align: center;
+    text-align-last: center;
+    font-size: 20px;
+    font-family: "Myriad Pro Regular";
+}
+.myvesu_select option {
+    text-align: left;
+}
+
+.myvesu_btn{
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 20px;
+    border-radius: 40px;
+    display: block;
+    background-color: #f7941d;
+    text-align: center;
+    height: 60px;
+}
+
+.myvesu_radio_label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #f7941d;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.checkmark::after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    display: none;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #f7941d;
+}
+
+.additional_stops:checked ~ .checkmark::after {
+    display: block;
+}
+
+#pick_up_time .bootstrap-datetimepicker-widget span{
+    color: #212529 !important;
+}
+
+.share_the_ride:checked ~ .checkmark::after {
+    display: block;
+}
+
+.baby_check:checked ~ .checkmark::after, .payment:checked ~ .checkmark::after {
+    display: block;
+}
+
+.myvesu_radio_label {
+    position: relative;
+    padding-left: 21px;
+    margin-right: 9px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input_group_text {
+    display: flex;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    border: none;
+    background-color: #ebebeb;
+    border-radius: 0px 25px 25px 0px;
+    height: 50px;
+}
+
+.bootstrap-datetimepicker-widget{
+    width: 100% !important;
+}
+
+.bootstrap-datetimepicker-widget table{
+    width: 100% !important;
+}
+
+.myvesu_select_label{
+    padding: 15px 0px;
+    font-size: 4vw;
+}
+
+.baby_booster_seat{
+    padding-top: 20px;
+}
+
+.myvesu_textarea{
+    width: 100%;
+    border: none;
+    background-color: #ebebeb;
+    border-radius: 25px;
+    height: 50px;
+    padding: 10px 10px;
+}
+
+.myvesu_textarea:focus{
+    box-shadow:none;
+    outline: none;
+    background-color: #ebebeb;
+}
+
+.additional_information_label{
+    font-size: 5vw;
+    color: #757575;
+    font-family: "Myriad Pro Regular";
+}
+
+#additional_information{
+    height: 20px;
+    width: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #f7941d;
+    border-radius: 4px;
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: #fff;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.checkbox > #additional_information:checked + span::before {
+    content: "\2713";
+    display: block;
+    color: #ff6f00;
+    position: absolute;
+    left: 5px;
+    top: -2px;
+}
+
+.myvesu_btn_default{
+    background: none;
+}
+
+.second_part_of_booking{
+    display: none;
+}
+
+.first_part_of_booking{
+    display: block;
+}
+
+.close_booking{
+    color: #212529;
+    font-weight: 400;
+}
+
+.myvesu_btn:focus{
+    box-shadow:none;
+    outline: none;
+}
+
+.bd-example-modal-lg .modal-dialog{
+    display: table;
+    position: relative;
+    margin: 0 auto;
+    top: calc(50% - 24px);
+}
+
+.bd-example-modal-lg .modal-dialog .modal-content{
+    background-color: transparent;
+    border: none;
+}
+
+.modal_check_icon{
+    font-size: 70px;
+    color: #28a745!important;
+    z-index: 1;
+}
+
+.setting span{
+    display: inherit;
+    color: #757575;
+}
+
+.setting_name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.setting_icon_angle{
+    font-size: 20px;
+    font-weight: bold;
+    color: #757575;
+}
+
+.toggle.btn-outline-warning .toggle-handle {
+    background-color: #f7941d !important;
+    border-color: #f7941d !important;
+}
+
+.your_ride_map iframe{
+    height: 60vh;
+    width: 100%;
+}
+
+#users_image_div{
+    position: relative;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#users_image_div img{
+    object-fit: cover;
+    width: 100%;
+}
+.users_absolute_place{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: white;
+    background: rgba(0,0,0,0.4);
+}
+
+.users_profile_name p{
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.users_profile_since p{
+    margin-bottom: 0;
+    text-align: end;
+}
+.users_profile_since p:last-child{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.profile_address_div h3{
+    color: #757575;
+}
+.profile_address_div p{
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.profile_user_city h3{
+    color: #757575;
+    margin-bottom: 0;
+}
+
+.profile_user_city{
+    margin-bottom: 20px;
+}
+
+.profile_user_city p{
+    color: #757575;
+}
+.profile_edit_form input:focus,.profile_edit_form select:focus,.profile_edit_form textarea:focus{
+    box-shadow: none;
+}
+
+.profile_edit_form{
+    margin-bottom: 25px;
+}
+
+.profile_edit_div{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    background: rgba(247,148,29,0.8);
+    padding: 0;
+    border-radius: 50%;
+    font-size: 23px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+.profile_edit_div a {
+    padding-left: 5px;
+}
+
+.profile_edit_div a i{
+    color: rgba(255,255,255,0.9);
+}
+.profile_edit_div:hover{
+    background: rgba(255,255,255,0.9);
+}
+.profile_edit_div:hover a i{
+    color: rgba(247,148,29,0.8);
+}
+.upload_photo_profile{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.profile_submit_div{
+    padding: 0 15px;
+}
+.edit_save_button{
+    background-color: #f7941d;
+    color: white;
+    font-size: 18px;
+}
+.edit_cancel_button{
+    font-size: 18px;
+    background-color: #DDDDDD;
+    color: black;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    border-radius: 34px;
+    height: 18px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 1px;
+    bottom:1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #F7941D;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #F7941D;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(27px);
+    -ms-transform: translateX(27px);
+    transform: translateX(27px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.about_app_div h4, .about_app_div p{
+    color: #757575;
+}
+.about_app_div p{
+    margin-bottom: 2px;
+}
+.checkout_info p{
+    color: #757575;
+    line-height: 1.3;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+.checkout_price p{
+    color: #F7941D;
+    font-size: 30px;
+}
+.payment_method_desc p:first-child{
+    margin-bottom: 0;
+    font-size: 20px
+}
+.checkout_div{
+    padding-top: 10px;
+}
+
+.checkout_div span{
+    font-weight: bold;
+    font-size: 15px;
+}
+.checkout_flex_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.paypal_checkout p.heading_p{
+    color: #767676;
+    font-size: 22px;
+}
+.paypal_checkout{
+    box-shadow: 3px 3px 10px 2px rgba(118,118,118,0.2);
+    display: flex;
+}
+.paypal_checkout p{
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #767676;
+}
+.paypal_checkout.active_tab p.heading_p{
+    color: #F5931D;
+}
+.paypal_checkout.active_tab{
+    box-shadow:inset 0 0 10px 2px rgba(118,118,118,0.2);
+}
+.checkmark_div{
+    padding-top: 10px;
+    text-align: center;
+    align-self: center;
+    font-size: 50px;
+    color: transparent;
+    transition-duration: 0.5s;
+}
+.active_tab .checkmark_div{
+    color: #F5931D;
+}
+
+.invoice_work p{
+    color: #767676;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 8px;
+    font-size: 25px;
+}
+
+.invoice_work p.invoice{
+    text-align: center;
+    font-weight: 100;
+}
+.invoice_work div{
+    padding: 10px;
+    box-shadow: 3px 3px 10px 2px rgba(118,118,118,0.2);
+}
+.driver_info_on_way h2, .driver_info_on_way h3, .driver_info_on_way h4, .driver_info_on_way h5{
+    color: #757575 !important;
+}
+
+.arriving_time{
+    font-size: 50px;
+    color: #f7941d;
+}
+
+.arriving_minutes{
+    position: absolute;
+    color: #757575;
+    top: 55px;
+    left: 75px;
+}
+
+.driver_vehicle_image{
+    width: 100%;
+    height: auto;
+}
+
+.myvesu_call_btn{
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 20px;
+    border-radius: 40px;
+    display: block;
+    background-color: #f7941d;
+    text-align: center;
+    height: 60px;
+    padding-top: 12px;
+}
+
+.on_way_ride_map iframe, .driver_ride_map iframe{
+    width: 100%;
+    height: 40vh;
+}
+
+.myvesu_accordion_btn{
+    background:transparent;
+    color: #f7941d;
+}
+
+.myvesu_accordion_btn:focus, .passenger_status:focus, .passenger_call_btn:focus{
+    box-shadow:none;
+    outline: none;
+}
+
+.myvesu_accordion_btn i{
+    color: #f7941d;
+    font-size: 22px;
+}
+
+.passenger_status_wait{
+    background: #fdc132;
+}
+
+.passenger_status_piked_up{
+    background: #f7941d;
+}
+
+.passenger_status_ended{
+    background: #80C783;
+}
+
+.passenger_status_paid{
+    background: #28a745;
+}
+
+.passenger_avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.passenger_call_btn{
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 40px;
+    background-color: #f7941d;
+    text-align: center;
+}
+
+.notification_item a{
+    padding: 2px 25px;
+    font-size: 12px;
+    color: white;
+    background-color: #f7941d;
+    border-radius: 20px;
+}
+.night_mode .notification_item a{
+    color: white !important;
+}
+.notification_item span{
+    font-size: 11px;
+    display: block;
+    margin-top: 10px;
+}
+.notification_item .notification_message{
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+.notification_item p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 1;
+}
+.notification_item a:focus{
+    box-shadow: none;
+}
+.notification_item, .invitation_item{
+    box-shadow: 1px 1px 4px 1px rgba(118,118,118,0.2);
+}
+.notification_time p{
+    color: #757575;
+}
+
+.invitation_item img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+
+.invitation_item p.invitation_name{
+    font-size: 19px;
+}
+.invitation_item p{
+    line-height: 1;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.invitation_item button{
+    border-radius: 20px;
+    border: 1px solid #BDBDBD;
+    font-size: 13px;
+    background: none;
+    padding: 3px 20px;
+}
+.invitation_item button.invited_button{
+    color: white;
+    background-color: #f7941d;
+    border-color: #f7941d;
+}
+.invitation_item button:focus{
+    box-shadow: none;
+}
+
+.payment_success_main p{
+    color: #767676;
+}
+.payment_ride_number p{
+    line-height: 1;
+    font-size: 15px;
+    margin-bottom: 9px;
+}
+.payment_ride_number p:first-child{
+    font-size: 17px;
+}
+.payment_voucher_div p{
+    line-height: 1.5;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+.payment_voucher_div p:first-child{
+    line-height: 1;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.accordion_card .card-header{
+    background: transparent;
+    padding: 5px 2px;
+}
+
+.rate_ride_btn{
+    border: 1px solid #F7B15B;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 19px;
+    padding: 13px;
+    font-weight: 600;
+    color: #F79724 !important;
+    cursor: pointer;
+}
+.rate_ride_btn:focus{
+    box-shadow: none;
+}
+.payment_details p{
+    line-height: 1.5;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+.rate_modal_main{
+    background: rgba(247,148,29,0.9);
+}
+.rate_modal_main p.rate_ride{
+    font-size: 22px;
+}
+.rate_modal_main p{
+    color: white;
+    font-size: 16px;
+}
+.star_rating_div{
+    font-size: 21px;
+    color: white;
+    height: 30px;
+}
+.active_star{
+    color: #FDDB13;
+    font-size: 26px;
+}
+.rate_button{
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 23px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.footer {
+    background: rgba(235,235,235,0.8);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    z-index: 2;
+}
+.footer i{
+    color: rgba(247,148,29,1) !important;
+}
+#app{
+    padding-bottom: 50px;
+}
+
+.back_btn i{
+    font-size: 55px;
+    color: #F7941D;
+}
+.sync_btn i{
+    font-size: 40px;
+    color: #F7941D;
+}
+.plus_btn i{
+    font-size: 40px;
+    color: #F7941D;
+}
+
+.contact_icon{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #F9A02C;
+    border-radius: 50%;
+    color: #F9A02C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+
+.contact_text, .contact_text a{
+    color: #767676;
+    font-size: 17px;
+}
+.contact_div, .invitation_items{
+   padding-top: 25px;
+    margin-bottom: 20px;
+}
+
+#contactForm .is-invalid{
+    border-bottom: 1px solid #e3342f !important;
+}
+
+#contactForm .form-control, #contactForm .form-group .form-control {
+    border-bottom: 1px solid #ced4da;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+    border-radius: 0
+}
+
+
+#contactForm .form-control::-moz-placeholder, #contactForm .form-group .form-control::-moz-placeholder {
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.night_mode #contactForm .form-control,.night_mode #contactForm .form-group .form-control, .night_mode .profile_edit_form .form-control,.night_mode .profile_edit_form .form-group .form-control {
+    border-bottom: 1px solid #F9A02C;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+    border-radius: 0
+}
+
+.night_mode span.notification_count{
+    background-color: #f7941d;
+    color: #292929 !important;
+    border-color: #292929;
+}
+.night_mode .notification_item span{
+    color: #f7941d;
+}
+.profile_edit_form .form-control, .profile_edit_form .form-group .form-control {
+    border-bottom: 1px solid #BDBDBD;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+    border-radius: 0
+}
+
+.notification_count{
+    display: flex;
+    font-size: 15px;
+    position: absolute;
+    top: 5px;
+    right: -6px;
+    background-color: white;
+    color: #f7941d;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f7941d;
+    border-radius: 50%;
+}
+
+.ride_info, .about_app_div, .rides_list, #tabs{
+    padding-top: 25px;
+    margin-bottom: 20px;
+}
+
+#tabs .nav-tabs{
+    border-bottom: 1px solid #F9A02C !important;;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #F9A02C !important;
+    background-color: transparent;
+    border-color: transparent transparent #F9A02C !important;
+    border-bottom: 4px solid !important;
+    font-size: 18px !important;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #F9A02C !important;
+    font-size: 18px;
+}
+
+.booking_ride{
+   padding-top: 40px;
+}
+
+.ride_bottom{
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.message_item_div{
+    min-height: 60px;
+    border-radius: 8px;
+    width: 91%;
+    box-shadow: -1px 1px 20px 11px rgba(118,118,118,0.2);
+}
+
+.message_image_div{
+    width: 40px;
+    left: -20px;
+    top: 10px;
+}
+.chat_image{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.message_text{
+    width: 93%;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+    color: #767676;
+}
+
+.online_status_div{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-color: green;
+    border: 2px solid white;
+    z-index: 1;
+    border-radius: 50%;
+    right: 0;
+}
+
+.message_item_right{
+    position: absolute;
+    right: -20px;
+    top: 10px;
+}
+.message_image_div_right{
+    width: 40px;
+}
+
+.night_mode .chat_container{
+    color: #F9A02C !important;
+}
+
+.chat_container{
+    min-height: 80vh;
+}
+.chat_container p{
+    overflow-x: hidden;
+    line-height: 1.3;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.chat_container p.time_div{
+    font-size: 10px;
+}
+.chat_btn{
+    width: 20%;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    display: block;
+    background-color: #f7941d;
+    text-align: center;
+}
+.chat_message_div{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.chat_message_div textarea{
+    resize: none;
+    padding-left: 11px;
+    width: 80%;
+    border: 1px solid #F9A02C;
+}
+
+.myvesu_plus_btn, .myvesu_minus_btn{
+    background: transparent;
+    padding: 0px !important;
+}
+
+.myvesu_plus_btn i, .myvesu_minus_btn i{
+    font-size: 40px;
+    margin-top: 6px;
+}
+
+.myvesu_plus_btn:focus, .myvesu_minus_btn:focus{
+    box-shadow:none;
+}
+.additional_info{
+    border-top-right-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+}
+
+.start_the_ride_button{
+    position: fixed;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 40px;
+    display: block;
+    background: linear-gradient(22deg,#ffb863, #F7941D, #ffb863);
+    text-align: center;
+    right: 21px;
+    padding: 14px 40px;
+    bottom: 70px;
+}
+.back_btn{
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+.back_btn:focus, .back_btn:active{
+    box-shadow:none;
+    outline: 0;
+}
+button:focus , button:active{
+    box-shadow:none;
+    outline: 0;
+}
+.ride_timer{
+    font-size: 24px;
+}
+
+.vesu_alert_success,.vesu_alert_danger,.vesu_alert_success_any,.vesu_alert_danger_any{
+    position: fixed;
+    right: 30px;
+    color: #f7941d;
+    top: 115px;
+    padding: 14px;
+    z-index: 1;
+    border-radius: 9px;
+    border: 1px solid white;
+    display: none;
+    max-width: 170px;
+}
+
+.vesu_alert_success,.vesu_alert_success_any{
+    background-color: #abefc8;
+}
+.vesu_alert_danger,.vesu_alert_danger_any{
+    background-color: #f9d6d5 !important;
+}
+.chat_item{
+    border-radius: 100px;
+}
+
+.chat_item p.chat_user_name{
+    font-size: 20px;
+    margin-bottom: 9px;
+}
+
+.chat_name_div{
+    max-width: 80%;
+}
+
+.chat_item p.unseen_message{
+    border-radius: 25px;
+    padding: 3px 11px;
+    background-color: rgba(217,217,217,0.4);
+    color: #ffb154;
+}
+.chat_item p{
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 0;
+}
+
+.chat_item p.seen_message{
+    border-radius: 25px;
+    padding: 3px 11px;
+    background-color: rgba(217,217,217,0.4);
+    color: grey !important;
+}
+.chat_item img{
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover
+}
